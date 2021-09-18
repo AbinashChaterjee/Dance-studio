@@ -1,0 +1,311 @@
+h1,h2,h3,h4,h5,h6,p {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+.header {
+    background-color: #6d2b70;
+}
+/* Navbar */
+.navbar {
+	padding: 18px 0;
+}
+.nav-link {
+	padding: 0;
+}
+.navbar-nav li {
+    margin-left: 20px;
+}
+.navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;	
+    text-decoration: none;
+}
+.navbar-nav .active a {
+    background-color: #ffd600;
+    padding: 35px 14px 15px 14px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #6d2b70;	
+}
+
+/* Banner */
+.banner {
+	background-image: url('img/banner_bg.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.banner_content {
+	display: flex;
+	align-items: center;
+	height: 725px;
+}
+.banner_text {}
+.banner_text h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    padding: 34px 0;
+}
+.banner_text .btn-primary {
+    background-color: #ffd600;
+    border: 1px solid #ffd600;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-size: 20px;
+    color: #340d35;
+    font-weight: 500;
+    margin: 40px 0 0 20px;
+}
+
+/* Common Tilte CSS */
+.common_text {}
+.common_text h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #202328;
+}
+.common_text p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #340d35;
+    padding-top: 15px;
+}
+/* About Stuido CSS */
+.about_studio {
+    padding: 50px 0 0 0;
+}
+.about_studio_text {
+    margin-left: 70px;
+}
+.about_studio_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #340d35;
+}
+.about_studio_wrap {
+    background-color: #ffe9ff;
+    padding: 20px 10px 10px 0;
+}
+.about_studio_wrap_img {
+    margin-top: -61px;
+}
+
+/* Service CSS */
+.service {
+    padding-bottom: 50px;
+}
+.service_text {
+    background-color: #ffe9ff;
+    padding: 30px 35px;
+}
+.service_text h2 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #202328;
+    padding: 14px 0 23px 0;
+}
+.service_text p {
+    font-size: 16px;
+    color: #340d35;
+    font-weight: 400;
+}
+/* New Dance Button */
+.new_dance_bg {
+    background-image: url('img/new_style.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    position: relative;
+    background-color: #933798;
+    overflow: hidden;
+
+}
+.new_dance_btn .btn-primary {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-left: 30px;
+    border: 1px solid #fff;
+}
+
+/* Recent CSS */
+.recent_wrok_images {
+    position: relative;
+}
+.recent_work_content {
+    position: absolute;
+    top: -27px;
+    left: 141px;
+    bottom: 0;
+}
+.recent_work_wrap {
+    background-color: #ffe9ff;
+    padding: 20px 0 0 20px;
+    margin-top: 30px;
+}
+.recent_work_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #340d35;
+    padding-bottom: 20px;
+    padding-right: 61px;
+}
+.recent_btn .btn-primary {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #933798;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;   
+    border: 1px solid #933798;
+}
+/* Priceing CSS */
+.card-header {
+    background-color: #933798;
+}
+
+.card-header h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+  margin: 0;
+}
+.card-body {
+    background-color: #d9d9d9;
+}
+.price_body {}
+.price_body h6 {
+   font-weight: 400;
+   color: #000000;
+   font-size: 16px;
+}
+.price_body h3 {    
+   font-size: 26px;
+   font-weight: 700;
+   color: #933798;
+   padding: 20px 0;
+}
+.price_body ul {
+     margin: 0;
+   padding: 0;
+}
+.price_body ul li {
+   list-style: none;
+}
+.price_body ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px 0;
+    display: block;
+}
+
+/* Blog CSS */
+.blog {
+    padding: 0 0 40px 0;
+}
+.blog_content {
+   position: relative;
+}
+.blog_text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.blog_text h2 a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-left: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Get Touch CSS */
+.get_touch {
+    padding: 0 0 40px 0;
+}
+.get_touch_text {
+    border: 1px solid #644665;
+    padding: 20px 0;
+}
+.get_touch_text span i {
+  font-size: 40px;
+  color: #644665;
+  margin-bottom: 10px;
+}
+.get_touch_text h3 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #202328; 
+}
+.get_touch_text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #202328; 
+}
+
+/* Custom Input */
+.custom_input input .custom_input,.form-control {
+    border: 2px solid #340d35;
+    background-color: #edbeec;
+    font-size: 16px;
+    font-weight: 400;
+    color: #340d35;
+    margin: 20px 0;
+}
+.contact_btn .btn-primary {
+    background-color: #933798;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    border: 1px solid #933798;
+}
+/* Footer */
+.footer {
+    background-color: #49134c;
+}
+.footer_wrap {
+  padding: 120px 0;
+}
+.footer_content {}
+.footer_content p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #c0c0c0;
+    margin: 20px 0;
+}
+.footer_icon a i {
+    font-size: 30px;
+    color: #49134c;
+    background-color: #ffd600;
+    width: 50px;
+    height: 50px;
+    padding: 10px 0 0 0;
+    border-radius: 23px;
+    margin-left: 20px;
+}
+/* Copy */
+.copy {
+    background-color: #340d35;
+    padding: 20px 0;
+}
+.copyright p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #c0c0c0;
+    margin: 0;
+}
